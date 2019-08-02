@@ -8,23 +8,45 @@ body {
     outline: none;
     box-sizing: border-box;
 }
-.header {
+header {
     background-color: #ffffff;
-    width: 80%;
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 150px;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .container {
-    float: left;
+   width: 80%;
+   margin: 0 auto;
 }
+
 
 nav {
     float: right;
     color: gray;
 }
 
-h1 {
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    position: relative;
+}
+
+nav a{
+    color: #666666;
+}
+
+.myname {
     color: white;
     background-color: #4aaaa5;
     font-family: 'Times New Roman', Times, serif;
@@ -41,13 +63,14 @@ color: #4aaaa5;
 
 .bio-container {
     clear: both;
+    margin: 0 auto;
     width: 960px;
     margin-bottom: 10%;
-    float: left;
+    float: center;
     background-color: #ffffff;
 }
 
-.obligatory-photo {
+#obligatory-photo {
     float: left;
 }
 
@@ -93,4 +116,3 @@ footer {
     border-top: 8px solid #4aaaa5;
   }
 
-  
