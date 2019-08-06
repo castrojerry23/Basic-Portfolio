@@ -1,6 +1,8 @@
 body {
+    padding: 1.8em;
     background-image: url('../images/email-pattern.png');
 }
+
 
 * {
     margin: 0;
@@ -64,7 +66,7 @@ color: #4aaaa5;
 .bio-container {
     clear: both;
     margin: 0 auto;
-    width: 960px;
+    max-width: 960px;
     margin-bottom: 10%;
     float: center;
     background-color: #ffffff;
